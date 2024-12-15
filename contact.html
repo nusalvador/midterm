@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body {
+        font-family: 'Courier New', monospace;
+    }
+    h1 {
+        color: #b56576;
+        text-align: center;
+    }
+    h2 {
+        color: #f77f00;
+    }
+</style>
+<style>
+    nav a {
+        color: e56b6f;
+        text-decoration: none;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact | My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<style>
+    /* Center the navbar */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        list-style-type: none; 
+        padding: 0; 
+    }
+
+    /* Optional: Center the links within the list items */
+    .navbar li {
+        margin: 0 30px; /* Adjust spacing between links */
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #B22222;
+	}
+</style>
+    <main>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><center>&copy; 2024 Nickson Salvador. Follow me on 
+            <a href="https://www.facebook.com/07nicky">Facebook</a>, <a href="https://github.com/nusalvador">Github</a>. </center>
+        </p>
+    </footer>
+</body>
+</html>
